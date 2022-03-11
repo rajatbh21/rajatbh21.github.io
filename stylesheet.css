@@ -141,3 +141,16 @@ span.highlight {
 img{
   max-width: 98%;
 }
+
+.profileContainer{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.profile{
+  justify-content: right;
+  max-width: 99%;
+  max-height: 85%;
+  border: #f09228;
+  border-radius: 3px 3px;
+}
