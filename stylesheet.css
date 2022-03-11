@@ -129,3 +129,15 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+.td { 
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 95%;
+  margin: auto;
+}
+
+img{
+  max-width: 98%;
+}
