@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+<title id="title">Cross-layer adaptive co-design</title>
+<desc id="desc">Sensing, computation, communication and action are coordinated by an adaptive runtime, with a feedback loop to respond to mission conditions.</desc>
+<defs>
+ <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#1b4774"/></marker>
+</defs>
+<rect x="5" y="5" width="890" height="590" rx="30" fill="#f7fafe" stroke="#d6e4f0" stroke-width="5"/>
+<text x="450" y="68" text-anchor="middle" fill="#17385e" font-family="Arial, sans-serif" font-size="34" font-weight="700">CROSS-LAYER CO-DESIGN</text>
+<g font-family="Arial, sans-serif" font-size="32" font-weight="700">
+ <rect x="58" y="111" width="394" height="76" rx="16" fill="#e4f1f8" stroke="#4e8daa" stroke-width="3"/><circle cx="99" cy="149" r="12" fill="#287da1"/><text x="133" y="160" fill="#17465e">Sensing</text>
+ <rect x="58" y="202" width="394" height="76" rx="16" fill="#e8effb" stroke="#6e87bf" stroke-width="3"/><rect x="87" y="226" width="24" height="24" rx="4" fill="#496fb1"/><text x="133" y="251" fill="#263e70">Computation</text>
+ <rect x="58" y="293" width="394" height="76" rx="16" fill="#e9f4e9" stroke="#71a978" stroke-width="3"/><path d="M87 342 Q99 317 111 342 M92 342 Q99 328 106 342" fill="none" stroke="#39804d" stroke-width="4"/><circle cx="99" cy="344" r="4" fill="#39804d"/><text x="133" y="342" fill="#25583a">Communication</text>
+ <rect x="58" y="384" width="394" height="76" rx="16" fill="#fff1df" stroke="#d8a35f" stroke-width="3"/><path d="M87 422h24 M100 410l12 12-12 12" fill="none" stroke="#b36a21" stroke-width="5"/><text x="133" y="433" fill="#7e4c1c">Action</text>
+</g>
+<g stroke="#1b4774" stroke-width="5" fill="none" marker-start="url(#arrow)" marker-end="url(#arrow)">
+ <path d="M470 149 H548"/><path d="M470 240 H548"/><path d="M470 331 H548"/><path d="M470 422 H548"/>
+</g>
+<rect x="562" y="194" width="275" height="183" rx="25" fill="#193d69"/>
+<text x="700" y="249" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="32" font-weight="700">ADAPTIVE</text>
+<text x="700" y="289" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="32" font-weight="700">RUNTIME</text>
+<text x="700" y="335" text-anchor="middle" fill="#cfe9f9" font-family="Arial, sans-serif" font-size="25">select · validate</text>
+<path d="M700 386 V493 Q700 525 668 525 H262 Q228 525 228 489 V477" fill="none" stroke="#1b4774" stroke-width="6" marker-end="url(#arrow)"/>
+<rect x="310" y="501" width="306" height="49" rx="24" fill="#f7fafe"/>
+<text x="463" y="534" text-anchor="middle" fill="#1b4774" font-family="Arial, sans-serif" font-weight="700" font-size="25">MISSION FEEDBACK</text>
+</svg>
