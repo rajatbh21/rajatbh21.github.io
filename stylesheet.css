@@ -158,3 +158,7 @@ img{
 }
 /* Selected work, highlighted in the publication list. */
 .publication.selected-publication { background-color: #ffffd0; padding: 10px 0; }
+
+/* Keep publication figures in a consistent, uncropped frame. */
+.publication .td > a { display: flex; align-items: center; justify-content: center; width: min(300px, 100%); height: 200px; }
+.publication .td img { display: block; width: 100%; height: 100%; object-fit: contain; }
