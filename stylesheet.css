@@ -156,3 +156,5 @@ img{
   border-radius: 6px;
   margin-top: -8px;
 }
+/* Selected work, highlighted in the publication list. */
+.publication.selected-publication { background-color: #ffffd0; padding: 10px 0; }
